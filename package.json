@@ -1,0 +1,15 @@
+{
+  "name": "educational-ecommerce-ui",
+  "version": "1.0.0",
+  "description": "A structural clone of a large-scale e-commerce site layout.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["css-grid", "flexbox", "ecommerce", "layout"],
+  "author": "Student",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

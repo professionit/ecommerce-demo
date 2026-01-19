@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopExpress - Educational Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Promotion Banner -->
+    <div class="top-banner">
+        <p>Big Sale: Up to 70% Off! <a href="#">Shop Now</a></p>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Shop<span>Express</span></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="I'm shopping for...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <div class="action-item">
+                    <i class="fas fa-qrcode"></i>
+                    <span>Download App</span>
+                </div>
+                <div class="action-item">
+                    <i class="far fa-flag"></i>
+                    <span>EN/USD</span>
+                </div>
+                <div class="action-item">
+                    <i class="far fa-user"></i>
+                    <span>Account</span>
+                </div>
+                <div class="action-item cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge">0</span>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="categories-trigger">
+                <i class="fas fa-bars"></i> All Categories
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Top Selection</a></li>
+                <li><a href="#">Flash Deals</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Tech</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="container">
+        <section class="hero-section">
+            <!-- Sidebar Categories -->
+            <aside class="category-sidebar">
+                <ul>
+                    <li><i class="fas fa-tshirt"></i> Women's Fashion</li>
+                    <li><i class="fas fa-user-tie"></i> Men's Fashion</li>
+                    <li><i class="fas fa-mobile-alt"></i> Phones & Telecom</li>
+                    <li><i class="fas fa-laptop"></i> Computer & Office</li>
+                    <li><i class="fas fa-gem"></i> Jewelry & Watches</li>
+                    <li><i class="fas fa-home"></i> Home & Garden</li>
+                    <li><i class="fas fa-paw"></i> Pet Supplies</li>
+                    <li><i class="fas fa-baby"></i> Kids & Toys</li>
+                    <li><i class="fas fa-running"></i> Sports & Fun</li>
+                </ul>
+            </aside>
+
+            <!-- Main Slider -->
+            <div class="hero-slider">
+                <div class="slide-content">
+                    <h2>Summer Sale Starts Now</h2>
+                    <p>Get coupons worth $50</p>
+                    <button class="btn-primary">View Deals</button>
+                </div>
+            </div>
+
+            <!-- User Widget -->
+            <div class="user-widget">
+                <div class="user-welcome">
+                    <div class="avatar"></div>
+                    <p>Welcome to ShopExpress</p>
+                    <div class="auth-buttons">
+                        <button class="btn-primary">Join</button>
+                        <button class="btn-secondary">Sign In</button>
+                    </div>
+                </div>
+                <div class="promo-box">
+                    <h4>New User Deal</h4>
+                    <p>$0.01 Items</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flash Deals -->
+        <section class="flash-deals section-margin">
+            <div class="section-header">
+                <h3>SuperDeals</h3>
+                <span class="timer">Ends in: 12:43:21</span>
+            </div>
+            <div class="deals-grid" id="deals-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <!-- More to Love -->
+        <section class="more-to-love section-margin">
+            <h3 class="section-title">More to Love</h3>
+            <div class="product-grid" id="product-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <div class="col">
+                    <h4>Customer Service</h4>
+                    <a href="#">Help Center</a>
+                    <a href="#">Transaction Services</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="col">
+                    <h4>Shopping with us</h4>
+                    <a href="#">Making payments</a>
+                    <a href="#">Delivery options</a>
+                    <a href="#">Buyer Protection</a>
+                </div>
+                <div class="col">
+                    <h4>Collaborate with us</h4>
+                    <a href="#">Affiliate Program</a>
+                    <a href="#">Logistics Service</a>
+                </div>
+                <div class="col">
+                    <h4>Stay Connected</h4>
+                    <div class="socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 ShopExpress Educational Clone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
